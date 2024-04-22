@@ -24,7 +24,8 @@ namespace Microsoft.SnippetDesigner
     {
         MethodBody,
         MethodDecl,
-        TypeDecl
+        TypeDecl,
+        Any
     }
 
 
@@ -110,10 +111,12 @@ namespace Microsoft.SnippetDesigner
             kindEnumToString.Add(KindOfSnippet.MethodBody, StringConstants.SnippetTypeMethodBody);
             kindEnumToString.Add(KindOfSnippet.MethodDecl, StringConstants.SnippetTypeMethodDeclaration);
             kindEnumToString.Add(KindOfSnippet.TypeDecl, StringConstants.SnippetTypeTypeDeclaration);
+            kindEnumToString.Add(KindOfSnippet.Any, StringConstants.SnippetTypeTypeAny);
 
             stringToKindEnum.Add(StringConstants.SnippetTypeMethodBody, KindOfSnippet.MethodBody);
             stringToKindEnum.Add(StringConstants.SnippetTypeMethodDeclaration, KindOfSnippet.MethodDecl);
             stringToKindEnum.Add(StringConstants.SnippetTypeTypeDeclaration, KindOfSnippet.TypeDecl);
+            stringToKindEnum.Add(StringConstants.SnippetTypeany, KindOfSnippet.any)
         }
 
 

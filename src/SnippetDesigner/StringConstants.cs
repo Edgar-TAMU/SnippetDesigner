@@ -70,6 +70,7 @@ namespace Microsoft.SnippetDesigner
         public const string SnippetTypeMethodBody = "method body";
         public const string SnippetTypeMethodDeclaration = "method decl";
         public const string SnippetTypeTypeDeclaration = "type decl";
+        public const string SnippetTypeAny = "any";
         public const string SymbolEndWord = "end";
         public const string SymbolSelected = "$selected$";
         public const string SymbolSelectedWord = "selected";
